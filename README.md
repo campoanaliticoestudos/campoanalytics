@@ -220,7 +220,7 @@ Todos os gráficos aceitam:
 ## 👤 Autor
 
 **Aldrei Peralta** | Campo Analítico  
-[campoanalytico.com](https://campoanalytico.com)
+[campoanalitico.com.br](https://campoanalitico.com.br/)
 
 ---
 
