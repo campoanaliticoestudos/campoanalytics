@@ -1,0 +1,34 @@
+Package: campoanalytics
+Title: Análise Tática de Futebol - Visualizações para Dados de Partida
+Version: 0.1.0
+Authors@R: 
+    person("Aldrei", "Peralta", email = "aldrei@campoanalytico.com", role = c("aut", "cre"))
+Description: Pacote para gerar visualizações táticas de futebol a partir de 
+    dados de partida em formato CSV (padrão WhoScored/Opta). Inclui: Passing Flow,
+    Passing Network, Shot Map, xG Race Chart, Dominance Map, Ações por 15min,
+    Taxa de Sucesso por Evento e Tabela de Passes por Bloco.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    dplyr (>= 1.0.0),
+    ggplot2 (>= 3.4.0),
+    ggsoccer (>= 0.1.7),
+    tidyr,
+    stringr,
+    scales,
+    patchwork,
+    showtext,
+    sysfonts,
+    ggrepel,
+    gt,
+    rlang
+Suggests:
+    readr,
+    ggimage,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
