@@ -11,7 +11,7 @@
 ```r
 # Via devtools (GitHub)
 # install.packages("devtools")
-devtools::install_github("aldreiperalta/campoanalytics")
+devtools::install_github("campoanaliticoestudos/campoanalytics")
 
 # Ou instalação local (pasta do pacote)
 devtools::install("campoanalytics/")
